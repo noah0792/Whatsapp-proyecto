@@ -1,0 +1,44 @@
+{
+  "cfg": {
+    "nombre": "Mi Tienda",
+    "telefono": "",
+    "moneda": "C$",
+    "pago": {
+      "efectivo": true,
+      "transferencia": true
+    },
+    "datosTransferencia": "Banco: ______\nCuenta: ______\nA nombre de: ______"
+  },
+  "prods": [
+    {
+      "id": "p1",
+      "nombre": "Audífonos Bluetooth",
+      "categoria": "Tecnología",
+      "precio": 650,
+      "stock": 8,
+      "descripcion": "Inalámbricos, con estuche de carga y micrófono integrado.",
+      "specs": "Conexión: Bluetooth 5.3\nBatería: 20 horas\nColor: Negro",
+      "fotos": []
+    },
+    {
+      "id": "p2",
+      "nombre": "Camiseta Negra",
+      "categoria": "Ropa",
+      "precio": 350,
+      "stock": 12,
+      "descripcion": "Algodón suave, corte unisex.",
+      "specs": "Tallas: S, M, L, XL\nMaterial: 100% algodón",
+      "fotos": []
+    },
+    {
+      "id": "p3",
+      "nombre": "Termo 1L",
+      "categoria": "Hogar",
+      "precio": 450,
+      "stock": 3,
+      "descripcion": "Acero inoxidable, mantiene el frío o el calor por horas.",
+      "specs": "Capacidad: 1 litro\nMaterial: Acero inoxidable",
+      "fotos": []
+    }
+  ]
+}
